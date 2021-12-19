@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="login suite">
+  <test name="login methods">
+    <classes>
+      <class name="testNG.LoginDetails"></class>
+    </classes>
+  </test>
+</suite>
+
+
+
+
+
+
+<!--
+<suite thread-count="2" parallel="methods" name="Failed suite [test suite]" guice-stage="DEVELOPMENT" verbose="2">
+  <test thread-count="2" parallel="methods" name="test case(failed)" verbose="2">
+    <parameter name="Name" value="guru"/>
+    <classes>
+      <class name="testNG.ParallelTesting">
+        <methods>
+          <include name="openGoogle"/>
+          <include name="openBingo"/>
+        </methods>
+      </class> &lt;!&ndash; testNG.ParallelTesting &ndash;&gt;
+    </classes>
+  </test> &lt;!&ndash; test case(failed) &ndash;&gt;
+</suite> &lt;!&ndash; Failed suite [test suite] &ndash;&gt;
+-->

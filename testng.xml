@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="test suite">
+    <test name="test case">
+        <classes>
+            <class name="testNG.LoginDetails"></class>
+            <class name="testNG.LoginDetails"></class>
+            <class name="testNG.WrongPassword"></class>
+            <class name="testNG.WrongUserName"></class>
+        </classes>
+    </test>
+</suite>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+<suite name="test suite" verbose="2" parallel="methods" thread-count="2">
+    <listeners>
+        <listener class-name="testNG.ListenersExamples"></listener>
+    </listeners>
+    <test name="test case">
+
+
+       &lt;!&ndash; <parameter name="Name" value="guru"></parameter>&ndash;&gt;
+       &lt;!&ndash; <groups>
+            <run>
+                <include name="samsung"></include>
+                <include name="xiaomi"></include>
+            </run>
+        </groups>&ndash;&gt;
+        <classes>
+            <class name="testNG.SampleTestCase"></class>
+           &lt;!&ndash; <class name="testNG.SampleTestCase"></class>
+            <class name="testNG.SkippingTestCase"></class>
+            <class name="testNG.DependenciesManagement"></class>&ndash;&gt;
+        </classes>
+    </test>
+</suite>-->
